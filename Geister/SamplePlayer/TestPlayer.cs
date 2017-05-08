@@ -13,6 +13,9 @@ namespace Geister.Player
 
         FieldObject[,]  boardState;
 
+        /// <summary>
+        /// 以下の2つのコンストラクタ内でゴーストの初期配置を設定してください．
+        /// </summary>
         public TestPlayer() : base()
         {
             SetInitialPlacement(new GhostAttribute[2, 4] { { GhostAttribute.evil, GhostAttribute.evil, GhostAttribute.evil, GhostAttribute.evil },
@@ -29,9 +32,15 @@ namespace Geister.Player
                                                               );
         }
 
+        /// <summary>
+        /// ゴーストがランダムに動くサンプルプログラム
+        /// </summary>
+        /// <returns></returns>
         public override Move GetMove()
         {
-
+            //得られる盤面などの情報は1P，2Pであっても手前側が自分のオバケの初期配置となる盤面で与えられます．
+            //また，GhostMoveも手前側が自分のオバケの初期配置となる盤面を基準としています．
+            //そのため，自分が1Pである時を想定してプログラムを作成してください．
             boardState = GetBoardState();
 
             List<Ghost> glist = GetMyGhostList().OrderBy(j => Guid.NewGuid()).ToList();
@@ -58,19 +67,15 @@ namespace Geister.Player
 
             }
 
-			//Console.CursorLeft = 0;
-            //for (int i = 0; i < GetBoardState().GetLength(0);i++)
-            //{
-            //    for (int j = 0; j < GetBoardState().GetLength(1);j++)
-            //    {
-            //        Console.Write("{0,11}",GetBoardState()[i,j]);
-            //    }
-            //    Console.WriteLine();
-            //}
-
              return m;
         }
 
+        /// <summary>
+        /// 指定したゴーストが移動可能であるか
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="gm"></param>
+        /// <returns></returns>
         private Boolean IsMovable(Position p, GhostMove gm)
         {
             if(Exists(p))
@@ -138,10 +143,10 @@ namespace Geister.Player
         }
 
         /// <summary>
-        /// Ises the exist.
+        /// 指定したマスにゴーストが存在するか
         /// </summary>
-        /// <returns><c>true</c>, if exist was ised, <c>false</c> otherwise.</returns>
-        /// <param name="p">P.</param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         private Boolean Exists(Position p)
         {
             foreach(Ghost g in GetMyGhostList())
@@ -150,11 +155,11 @@ namespace Geister.Player
                     return true;
                 }
             }
-
-            return false;    
+            return false;   
+            
         }
 
-
+        
 
 
     }
