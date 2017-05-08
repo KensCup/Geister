@@ -5,6 +5,7 @@ using System.Linq;
 using Geister.GameSystem;
 using Geister.GameInformation;
 
+//競合を防ぐため，名前空間をユニークなものに変更してプログラムを作成してください．
 namespace Geister.Player
 {
     class TestPlayer : AbstractPlayer
