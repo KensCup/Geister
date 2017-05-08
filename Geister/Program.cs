@@ -25,7 +25,7 @@ namespace Geister
             //0 ~ 500 までの値で調整
 
             //引数：(AbstractPlayer , AbstractPlayer, AbstractPlayer, AbstractPlayer, int ターン数, int ゲーム進行速度)
-            GameManager gameManager = new GameManager(new TestPlayer("a"), new TestPlayer("b"), 200, 20);
+            GameManager gameManager = new GameManager(new TestPlayer("a"), new TestPlayer("b"), 300, 20);
 
             app.InitializeComponent();
             app.Run(new GeisterUI(gameManager));
