@@ -105,6 +105,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameState</b> (Gam
 <tr class="memitem:a5f149d05673e139f8d672f6ddee8e15b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geister_1_1_game_information_1_1_abstract_player.html#a5f149d05673e139f8d672f6ddee8e15b">GetGhostNum</a> (<a class="el" href="namespace_geister_1_1_game_information.html#aea0917d686f79d7b3c521963db6dd5f0">FieldObject</a> player, <a class="el" href="namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58">GhostAttribute</a> ghostAttribute)</td></tr>
 <tr class="memdesc:a5f149d05673e139f8d672f6ddee8e15b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したプレイヤーの指定した属性のゴーストの数を取得する  <a href="#a5f149d05673e139f8d672f6ddee8e15b">More...</a><br /></td></tr>
 <tr class="separator:a5f149d05673e139f8d672f6ddee8e15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9e8145841843a4ac63e67f84ccebeb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58">GhostAttribute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geister_1_1_game_information_1_1_abstract_player.html#aa9e8145841843a4ac63e67f84ccebeb8">GetMyGhostAttribute</a> (<a class="el" href="class_geister_1_1_game_information_1_1_position.html">Position</a> p)</td></tr>
+<tr class="memdesc:aa9e8145841843a4ac63e67f84ccebeb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した位置の自身のゴーストの属性を取得する  <a href="#aa9e8145841843a4ac63e67f84ccebeb8">More...</a><br /></td></tr>
+<tr class="separator:aa9e8145841843a4ac63e67f84ccebeb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10fac246faf4e67cbb79e945ad9aa284"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_geister_1_1_game_information_1_1_position.html">Position</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geister_1_1_game_information_1_1_abstract_player.html#a10fac246faf4e67cbb79e945ad9aa284">GetGhostPositionList</a> (<a class="el" href="namespace_geister_1_1_game_information.html#aea0917d686f79d7b3c521963db6dd5f0">FieldObject</a> player)</td></tr>
 <tr class="memdesc:a10fac246faf4e67cbb79e945ad9aa284"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したプレイヤーのゴーストのポジションのリストを取得する  <a href="#a10fac246faf4e67cbb79e945ad9aa284">More...</a><br /></td></tr>
 <tr class="separator:a10fac246faf4e67cbb79e945ad9aa284"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,6 +318,33 @@ Properties</h2></td></tr>
 
 <p>移動させるゴーストと方向を決定するメソッド </p>
 <dl class="section return"><dt>Returns</dt><dd>移動させるゴーストの位置と方向のメンバを持つクラス <a class="el" href="class_geister_1_1_game_information_1_1_move.html" title="動かすゴーストと方向を示すクラス ">Move</a></dd></dl>
+
+</div>
+</div>
+<a id="aa9e8145841843a4ac63e67f84ccebeb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9e8145841843a4ac63e67f84ccebeb8">&#9670;&nbsp;</a></span>GetMyGhostAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58">GhostAttribute</a> Geister.GameInformation.AbstractPlayer.GetMyGhostAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_geister_1_1_game_information_1_1_position.html">Position</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した位置の自身のゴーストの属性を取得する </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>指定する位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Type:GhostAttribute good or evil or NULL </dd></dl>
 
 </div>
 </div>

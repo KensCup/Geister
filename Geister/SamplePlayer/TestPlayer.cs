@@ -122,7 +122,10 @@ namespace Geister.Player
 					{
                         if(p.Y == 0 || p.Y == 5)
                         {
-                            return true;
+                            if (GetMyGhostAttribute(p) == GhostAttribute.good)
+                            {
+                                return true;
+                            }
                         }
                         return false;
 					}
