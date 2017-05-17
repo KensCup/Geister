@@ -82,45 +82,45 @@ namespace Geister.Player
             {
                 if (gm == GhostMove.Down)
                 {
-                    if (p.X == 5)
+                    if (p.Row == 5)
                     {
                         return false;
                     }
 
-                    if (boardState[p.X + 1, p.Y] == GetMyPlayerID())
+                    if (boardState[p.Row + 1, p.Col] == GetMyPlayerID())
                     {
                         return false;
                     }
                 }
                 else if (gm == GhostMove.Left)
                 {
-                    if (p.Y == 0)
+                    if (p.Col == 0)
                     {
                         return false;
                     }
 
-                    if (boardState[p.X, p.Y-1] == GetMyPlayerID())
+                    if (boardState[p.Row, p.Col-1] == GetMyPlayerID())
                     {
                         return false;
                     }
                 }
 				else if (gm == GhostMove.Right)
 				{
-					if (p.Y == 5)
+					if (p.Col == 5)
 					{
 						return false;
 					}
 
-					if (boardState[p.X, p.Y + 1] == GetMyPlayerID())
+					if (boardState[p.Row, p.Col + 1] == GetMyPlayerID())
 					{
 						return false;
 					}
 				}
 				else if (gm == GhostMove.Up)
 				{
-					if (p.X == 0)
+					if (p.Row == 0)
 					{
-                        if(p.Y == 0 || p.Y == 5)
+                        if(p.Col == 0 || p.Col == 5)
                         {
                             if (GetMyGhostAttribute(p) == GhostAttribute.good)
                             {
@@ -130,7 +130,7 @@ namespace Geister.Player
                         return false;
 					}
 
-					if (boardState[p.X-1, p.Y ] == GetMyPlayerID())
+					if (boardState[p.Row-1, p.Col ] == GetMyPlayerID())
 					{
 						return false;
 					}
