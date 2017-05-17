@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move',['Move',['../class_geister_1_1_game_information_1_1_move.html',1,'Geister.GameInformation.Move'],['../class_geister_1_1_game_information_1_1_move.html#ac861a7849718f988a033f42b9bffa2f1',1,'Geister.GameInformation.Move.Move(Position p, GhostMove gm)'],['../class_geister_1_1_game_information_1_1_move.html#aca52deb9710abf4297f8b34c7c548d16',1,'Geister.GameInformation.Move.Move(int x, int y, GhostMove gm)']]]
+  ['left',['Left',['../namespace_geister_1_1_game_information.html#ac20ed580a2c393321e5afd7059c17062a945d5e233cf7d6240f6b783b36a374ff',1,'Geister::GameInformation']]]
 ];

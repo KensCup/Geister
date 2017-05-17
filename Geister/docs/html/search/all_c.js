@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['setinitialplacement',['SetInitialPlacement',['../class_geister_1_1_game_information_1_1_abstract_player.html#ad39c7f4a0300175ea3ae19b84a610e76',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['setposition',['SetPosition',['../class_geister_1_1_game_information_1_1_position.html#a2e649094a901083973284680d206e46e',1,'Geister::GameInformation::Position']]]
+  ['right',['Right',['../namespace_geister_1_1_game_information.html#ac20ed580a2c393321e5afd7059c17062a92b09c7c48c520c3c55e497875da437c',1,'Geister::GameInformation']]],
+  ['row',['Row',['../class_geister_1_1_game_information_1_1_position.html#aa417715b6905dee5788dc028a35c3bef',1,'Geister::GameInformation::Position']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['name',['Name',['../class_geister_1_1_game_information_1_1_abstract_player.html#a5e083db975757c59e44484b722a5defb',1,'Geister.GameInformation.AbstractPlayer.Name()'],['../class_geister_1_1_game_information_1_1_abstract_player.html#a9ec33e26c51c309767716e2f11e893ee',1,'Geister.GameInformation.AbstractPlayer.name()']]],
-  ['null',['NULL',['../namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58a6c3e226b4d4795d518ab341b0824ec29',1,'Geister::GameInformation']]]
+  ['move',['Move',['../class_geister_1_1_game_information_1_1_move.html',1,'Geister.GameInformation.Move'],['../class_geister_1_1_game_information_1_1_move.html#ac861a7849718f988a033f42b9bffa2f1',1,'Geister.GameInformation.Move.Move(Position p, GhostMove gm)'],['../class_geister_1_1_game_information_1_1_move.html#aeec7641b3dde05e42b2b1566c64a1d45',1,'Geister.GameInformation.Move.Move(int row, int col, GhostMove gm)']]]
 ];

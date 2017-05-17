@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['gameinformation',['GameInformation',['../namespace_geister_1_1_game_information.html',1,'Geister']]],
-  ['geister',['Geister',['../namespace_geister.html',1,'']]],
-  ['getboardstate',['GetBoardState',['../class_geister_1_1_game_information_1_1_abstract_player.html#a46be7a15c7f1c540d46de20f03065a1a',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getcaputuredghostlist',['GetCaputuredGhostList',['../class_geister_1_1_game_information_1_1_abstract_player.html#a95a41250dd6c131c8b3e55430eb43f43',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getghostnum',['GetGhostNum',['../class_geister_1_1_game_information_1_1_abstract_player.html#a5f149d05673e139f8d672f6ddee8e15b',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getghostpositionlist',['GetGhostPositionList',['../class_geister_1_1_game_information_1_1_abstract_player.html#a10fac246faf4e67cbb79e945ad9aa284',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getmove',['GetMove',['../class_geister_1_1_game_information_1_1_abstract_player.html#a7f344111f7c08376637bd9af663aa6e9',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getmyghostattribute',['GetMyGhostAttribute',['../class_geister_1_1_game_information_1_1_abstract_player.html#aa9e8145841843a4ac63e67f84ccebeb8',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getmyghostlist',['GetMyGhostList',['../class_geister_1_1_game_information_1_1_abstract_player.html#a4f2ffeff2f778576099a36398df499d9',1,'Geister.GameInformation.AbstractPlayer.GetMyGhostList()'],['../class_geister_1_1_game_information_1_1_abstract_player.html#a836a74bb2c1be9f5dc1c18c903231130',1,'Geister.GameInformation.AbstractPlayer.GetMyGhostList(GhostAttribute ghostAttribute)']]],
-  ['getmyplayerid',['GetMyPlayerID',['../class_geister_1_1_game_information_1_1_abstract_player.html#aeb1265dc23e6551d8feff1803527e4a5',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['getturn',['GetTurn',['../class_geister_1_1_game_information_1_1_abstract_player.html#a9ed950fa30aa17e66b504d9b5f4b078c',1,'Geister::GameInformation::AbstractPlayer']]],
-  ['ghost',['Ghost',['../class_geister_1_1_game_information_1_1_ghost.html',1,'Geister.GameInformation.Ghost'],['../class_geister_1_1_game_information_1_1_ghost.html#a2b8c86d156b2d271c9cd1ab04a513f3d',1,'Geister.GameInformation.Ghost.Ghost()']]],
-  ['ghostattribute',['GhostAttribute',['../namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58',1,'Geister::GameInformation']]],
-  ['ghostm',['GhostM',['../class_geister_1_1_game_information_1_1_move.html#a65081943e5ac574047d6819f9d069311',1,'Geister::GameInformation::Move']]],
-  ['ghostmove',['GhostMove',['../namespace_geister_1_1_game_information.html#ac20ed580a2c393321e5afd7059c17062',1,'Geister::GameInformation']]],
-  ['good',['good',['../namespace_geister_1_1_game_information.html#aa11891f17361c2d281180cd11a6e0e58a755f85c2723bb39381c7379a604160d8',1,'Geister::GameInformation']]],
-  ['gt',['Gt',['../class_geister_1_1_game_information_1_1_ghost.html#ac905816b05fc9f08c502d8f309a67cb3',1,'Geister::GameInformation::Ghost']]]
+  ['fieldobject',['FieldObject',['../namespace_geister_1_1_game_information.html#aea0917d686f79d7b3c521963db6dd5f0',1,'Geister::GameInformation']]]
 ];

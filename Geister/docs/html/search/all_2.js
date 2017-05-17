@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['down',['Down',['../namespace_geister_1_1_game_information.html#ac20ed580a2c393321e5afd7059c17062a08a38277b0309070706f6652eeae9a53',1,'Geister::GameInformation']]]
+  ['col',['Col',['../class_geister_1_1_game_information_1_1_position.html#a98380c7c632f71742693905de58c7805',1,'Geister::GameInformation::Position']]]
 ];
