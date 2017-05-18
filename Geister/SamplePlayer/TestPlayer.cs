@@ -42,6 +42,7 @@ namespace Geister.Player
             //また，GhostMoveも手前側が自分のオバケの初期配置となる盤面を基準としています．
             //そのため，自分が1Pである時を想定してプログラムを作成してください．
             boardState = GetBoardState();
+           
 
             List<Ghost> glist = GetMyGhostList().OrderBy(j => Guid.NewGuid()).ToList();
             List<GhostMove> gmlist = new List<GhostMove>();
