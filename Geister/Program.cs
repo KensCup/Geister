@@ -20,10 +20,10 @@ namespace Geister
             App app = new App();
 
             //引数：(AbstractPlayer ,　AbstractPlayer , int ターン数, int ゲーム進行速度)
-            //思考時間は500msです
+            //思考時間は1000msです
             //ゲーム進行速度：1プレイヤーごとの時間を調整
             //例：100 → 進行を100ms遅らせる
-            //0 ~ 500 までの値で調整
+            //0 ~ 1000 までの値で調整
 
             //引数：(AbstractPlayer , AbstractPlayer, AbstractPlayer, AbstractPlayer, int ターン数, int ゲーム進行速度)
             GameManager gameManager = new GameManager(new TestPlayer("a"), new TestPlayer2("b"), 500, 20);
